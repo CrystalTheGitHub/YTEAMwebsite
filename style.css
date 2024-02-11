@@ -1,0 +1,376 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #BD01FF;
+    font-size: 64px;
+}
+body {
+    color: #E7A3FF;
+    font-family: 'Roboto';
+    background-color: #282828;
+}
+.logo-text {
+    font-weight: bold;
+}
+.logo-div {
+    text-align: center;
+    width: 27%;
+    height: 50%;
+}
+.header {
+    width: 100%;
+    height: 5%;
+    background: rgb(40,40,40);
+    background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(51,0,83,1) 83%);   
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-div {
+    width: 60%;
+    height: 100%;
+}
+.navpanel {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.a {
+    color: #E7A3FF;
+    font-weight: bold;
+    transition: 1s;
+}
+.a:hover {
+    color:#BD01FF;
+
+}
+  .logo-text {
+    width: 100%;
+    animation: typing 2s steps(40),  .5s  infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'roboto';
+   
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+.section-choose {
+  background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(51,0,83,1) 83%); 
+  width: 80%;
+  height: 100vh;
+  border-radius: 52px;
+  margin-top: 7rem;
+
+
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.choose-container {
+width: 100%;
+height: 100%;
+padding-top: 100px;
+
+}
+.choose-div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 100px;
+
+}
+.chooser1 {
+  /* height: 60vh;
+  width: 25%;*/
+  background-color: #611D82; 
+  border-radius: 52px;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.chooser2 {
+  background-color: #611D82; 
+  border-radius: 52px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.chooser3 {
+  background-color: #611D82; 
+  border-radius: 52px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.choose-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+.choose-span {
+  margin-top: 20px;
+}
+.cha2 {
+  text-decoration: none;
+  color:#E7A3FF; 
+  background-color: #611D82; 
+  border-radius: 52px;
+  background-color: #611D82; 
+  border-radius: 52px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cha1 {
+  background-color: #611D82; 
+  border-radius: 52px;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color:#E7A3FF; 
+}
+.section-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80%; 
+  padding-top: 50px;
+}
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.intro-team {
+  border-radius: 52px;
+  width: 30%;
+  height: 50%;
+  background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(51,0,83,1) 83%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.intro-about {
+  border-radius: 52px;
+  width: 60%;
+  height: 50%;
+  background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(51,0,83,1) 83%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team-title {
+  color:#BD01FF;
+  font-size: 25px;
+  font-weight: bold;
+}
+.about-title {
+  color:#BD01FF;
+  font-size: 25px;
+  font-weight: bold;
+}
+.team-text {
+  color:#E7A3FF;
+}
+.around-text {
+  color:#E7A3FF;
+}
+.section-idea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 80%; 
+  
+}
+.idea-container {
+  border-radius: 52px;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(0deg, rgba(40,40,40,1) 0%, rgba(51,0,83,1) 83%);
+}
+.idea-textc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  
+}
+.idea-title {
+  color:#BD01FF;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.idea-text {
+  font-size: 18px;
+}
+.rassnov {
+  margin-top: 20px;
+  background-color: #611D82; 
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.rassnov2 {
+  margin-top: 20px;
+  background-color: #611D82; 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 50px;
+  display: none;
+  transition: 1s;
+}
+.rassnov22 {
+  margin-top: 20px;
+  background-color: #611D82; 
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 50%;
+  transition: 1s;
+}
+.ras2{
+  display: none;
+  transition: 1s;
+}
+.js-span {
+  width: 50px;
+  font-size: 17px;
+  margin-left: 30px
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #BD01FF;
+    font-size: 32px;
+}
+.logo-text {
+  width: 100%;
+  animation: typing 2s steps(30),  .5s  infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'roboto';
+ font-size: 10px;
+}
+.a {
+  color: #E7A3FF;
+  font-weight: bold;
+  transition: 1s;
+  font-size: 10px;
+}
+.ds {
+  display: none;
+
+}
+.choose-div{
+  grid-template-columns: repeat(1,312px);
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.chooser1 {
+  height: 30%;
+  width: 70%;
+}
+.chooser2 {
+  height: 30%;
+  width: 70%;
+}
+.chooser3 {
+  height: 35%;
+  width: 70%;
+
+}
+.cha1 {
+  height: 30vh;
+}
+.section-choose {
+  width: 100%;
+  margin: 0;
+}
+
+}
