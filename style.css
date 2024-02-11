@@ -153,6 +153,7 @@ padding-top: 100px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  height: 60vh;
 }
 .cha1 {
   background-color: #611D82; 
@@ -357,7 +358,7 @@ form {
   width: 70%;
 }
 .chooser2 {
-  height: 60vh;
+  height: 30%;
   width: 70%;
 }
 .chooser3 {
