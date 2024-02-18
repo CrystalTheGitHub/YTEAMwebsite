@@ -1,0 +1,376 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    color: #6b0000;
+}
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #8e0000;
+    font-size: 64px;
+}
+body {
+    color: #2a0000;
+    font-family: 'Roboto';
+    background-color:  rgb(236, 105, 105);
+}
+.logo-text {
+    font-weight: bold;
+}
+.logo-div {
+    text-align: center;
+    width: 27%;
+    height: 50%;
+}
+.header {
+    width: 100%;
+    height: 5%;
+    background: rgb(40,40,40);
+    background: linear-gradient(0deg,  rgb(236, 105, 105) 0%, rgb(138, 0, 0) 83%);   
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-div {
+    width: 60%;
+    height: 100%;
+}
+.navpanel {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.a {
+    color: #6b0000;
+    font-weight: bold;
+    transition: 1s;
+}
+.a:hover {
+    color: #00ddff;
+
+}
+  .logo-text {
+    width: 100%;
+    animation: typing 2s steps(40),  .5s  infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'roboto';
+   
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.intro {
+    border-radius: 53px;
+    margin-top: 30px;
+    background-color: rgb(177, 30, 30);
+    width: 80%;
+    height: 100vh;
+    margin-bottom: 5vh;
+    
+}
+.intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.in-hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.in{
+    height: 45%;
+    width: 50%;
+    border: #480000 solid 2px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.in-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+section {
+    margin-bottom: 20vh;
+}
+.inform {
+    border-radius: 53px;
+    margin-top: 30px;
+    background-color: rgb(177, 30, 30);
+    width: 80%;
+    height: 60vh;
+    
+}
+.inform-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    font-weight: 500;
+}
+.inform-information {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: #480000 solid 2px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+.interesting{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: #480000 solid 2px;
+    border-radius: 50px;
+    text-align: center;
+}
+.my90 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
+.my10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+}
+.facts{
+    display: flex;
+    border-radius: 53px;
+    margin-top: 30px;
+    background-color: rgb(177, 30, 30);
+    width: 80%;
+    height: 150vh;
+
+        
+}
+.facts-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.fact {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    height: 15%;
+    padding-top: 3%;
+    border-radius: 50px;
+    border: #480000 solid 2px;
+}
+.factss {
+    font-weight: 500;
+}
+
+.about-video {
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(177, 30, 30);
+    border-radius: 53px;
+}
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.lastest-video {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 53px;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(255, 22, 22);
+    font-weight: 500;
+    font-size: 25px;
+}
+.next-video-date {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 53px;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(255, 22, 22);
+    font-weight: 500;
+    font-size: 25px;
+    color: #6d0000;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 32px;
+}
+.logo-text {
+  width: 100%;
+  animation: typing 2s steps(30),  .5s  infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'roboto';
+ font-size: 10px;
+}
+.a {
+  font-weight: bold;
+  transition: 1s;
+  font-size: 10px;
+}
+.ds {
+    display: none;
+  
+  }
+h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+.interesting {
+    display: none;
+}
+.intro {
+    border-radius: 53px;
+    margin-top: 30px;
+    background-color: rgb(177, 30, 30);
+    width: 80%;
+    height: 50vh;
+}
+.intro-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.in-hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    text-align: center;
+    height: 45%;
+    width: 95%;
+    border: #480000 solid 2px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.in-information {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+.hello-title {
+    font-size: 12px;
+}
+.inform-information {
+    font-size: 12px;
+}
+section {
+    margin-bottom: 5vh;
+}
+.factss {
+    font-size: 12px;
+
+}
+.fact {
+    width: 55%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastest-video {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 53px;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(255, 22, 22);
+    font-weight: 500;
+    font-size: 15px;
+}
+.next-video-date {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 53px;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(255, 22, 22);
+    font-weight: 500;
+    font-size: 15px;
+    color: #6d0000;
+}
+}

@@ -121,7 +121,7 @@ padding-top: 100px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
+  height: 60vh;
 }
 
 .chooser3 {
@@ -298,28 +298,15 @@ form {
   flex-direction: column;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.o {
+  width: 30%;
+  background-color: #BD01FF;
+  border: #282828 solid 2px;
+  cursor: pointer;
+}
+.xix {
+  cursor: pointer;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -372,6 +359,27 @@ form {
 .section-choose {
   width: 100%;
   margin: 0;
+  height: 100vh;
 }
-
+.intro-team {
+  height: 30vh;
+ font-size: 12px;
+}
+.intro-about {
+  height: 30vh;
+  font-size: 12px;
+  text-align: center;
+}
+.team-title {
+  font-size: 15px;
+}
+.about-title {
+  font-size: 15px;
+}
+.section-intro {
+  height: 40vh;
+}
+.section-idea {
+  height: 40vh;
+}
 }
